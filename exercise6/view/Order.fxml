@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="618.0" prefWidth="562.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrderController">
+   <children>
+      <Pane layoutX="13.0" layoutY="12.0" prefHeight="595.0" prefWidth="535.0" style="-fx-background-color: #012B7B;">
+         <children>
+            <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="330.0" layoutX="20.0" layoutY="242.0" stroke="#ffffff00" strokeType="INSIDE" width="496.0">
+               <effect>
+                  <DropShadow offsetY="4.0">
+                     <color>
+                        <Color red="0.6947368383407593" green="0.6664327383041382" blue="0.6664327383041382" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Rectangle>
+            <Label layoutX="65.0" layoutY="277.0" prefHeight="27.0" prefWidth="129.0" text="PRODUCT NAME" textFill="#012b7b">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Rectangle fill="WHITE" height="86.0" layoutX="198.0" stroke="#ffffff00" strokeType="INSIDE" width="339.0" />
+            <Label layoutX="218.0" layoutY="16.0" prefHeight="50.0" prefWidth="354.0" text="ORDER SUMMARY" textFill="#012b7b">
+               <font>
+                  <Font name="System Bold" size="34.0" />
+               </font>
+            </Label>
+            <Label fx:id="name1" layoutX="65.0" layoutY="323.0" prefHeight="27.0" prefWidth="213.0" text="name 1" textFill="#012b7b" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="qty1" layoutX="284.0" layoutY="323.0" prefHeight="27.0" prefWidth="57.0" text="qty 1" textAlignment="CENTER" textFill="#012b7b" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="name2" layoutX="65.0" layoutY="380.0" prefHeight="27.0" prefWidth="182.0" text="name 2" textFill="#012b7b" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="qty2" layoutX="284.0" layoutY="380.0" prefHeight="27.0" prefWidth="57.0" text="qty 2" textAlignment="CENTER" textFill="#012b7b" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="name3" layoutX="65.0" layoutY="433.0" prefHeight="27.0" prefWidth="202.0" text="name 3" textFill="#012b7b" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="qty3" layoutX="284.0" layoutY="433.0" prefHeight="27.0" prefWidth="57.0" text="qty 3" textAlignment="CENTER" textFill="#012b7b" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="lineAmount1" layoutX="429.0" layoutY="323.0" prefHeight="27.0" prefWidth="57.0" text="lineAmount1" textFill="#012b7b" visible="false" />
+            <Label fx:id="lineAmount2" layoutX="429.0" layoutY="380.0" prefHeight="27.0" prefWidth="57.0" text="lineAmount2" textAlignment="CENTER" textFill="#012b7b" visible="false" />
+            <Label fx:id="lineAmount3" layoutX="429.0" layoutY="433.0" prefHeight="27.0" prefWidth="57.0" text="lineAmount3" textAlignment="CENTER" textFill="#012b7b" visible="false" />
+            <Label layoutX="57.0" layoutY="528.0" prefHeight="27.0" prefWidth="130.0" text="ORDER TOTAL" textFill="#012b7b">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label fx:id="Total" layoutX="422.0" layoutY="528.0" prefHeight="27.0" prefWidth="86.0" text="TOTAL" textFill="#012b7b">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <ImageView fitHeight="86.0" fitWidth="202.0">
+               <image>
+                  <Image url="@../images/ikea.png" />
+               </image>
+            </ImageView>
+            <Line endX="324.0" layoutX="156.0" layoutY="508.0" startX="-100.0" stroke="#012b7b" />
+            <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="88.0" layoutX="20.0" layoutY="125.0" stroke="#ffffff00" strokeType="INSIDE" width="496.0">
+               <effect>
+                  <DropShadow offsetY="4.0">
+                     <color>
+                        <Color red="0.6947368383407593" green="0.6664327383041382" blue="0.6664327383041382" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Rectangle>
+            <Label layoutX="35.0" layoutY="118.0" prefHeight="50.0" prefWidth="374.0" text="Thank You for Shopping with IKEA!" textFill="#012b7b">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="36.0" layoutY="143.0" prefHeight="50.0" prefWidth="475.0" text="At IKEA, we strive to provide you with a seamless shopping experience, from browsing our wide range of " textFill="#012b7b">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="36.0" layoutY="156.0" prefHeight="50.0" prefWidth="475.0" text="products to the moment they arrive at your home. Your satisfaction is our top priority, and we are " textFill="#012b7b">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="36.0" layoutY="169.0" prefHeight="50.0" prefWidth="475.0" text="commited to going extra mile to meet your expectations." textFill="#012b7b">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="282.0" layoutY="288.0" prefHeight="27.0" prefWidth="129.0" text="QUANTITY" textFill="#012b7b">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="436.0" layoutY="287.0" prefHeight="27.0" prefWidth="81.0" text="PRICE" textFill="#012b7b">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
